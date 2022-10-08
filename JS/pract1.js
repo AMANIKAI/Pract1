@@ -7,3 +7,6 @@ var dateInput =prompt("Enter date of birth");
 var birthDates = new Date(dateInput);
 
 var dateYenyewe = birthDate.getDay();
+
+var genderFemal = femaleName(dateYenyewe);
+var genderMale = maleNames(dateYenyewe);
