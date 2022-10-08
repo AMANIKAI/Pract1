@@ -3,3 +3,7 @@ var maleAkanNames = [ "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwa
 var femaleAkanNames = [ "Akosua", "Adwoa", "Abenaa", "Akua", " Yaa", "Afua", "Ama", ];
 
 var dateInput =prompt("Enter date of birth");
+
+var birthDates = new Date(dateInput);
+
+var dateYenyewe = birthDate.getDay();
